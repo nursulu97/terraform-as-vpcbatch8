@@ -1,5 +1,6 @@
 # terraform-as-vpcbatch8
 
+```hcl
 module "vpc" {
     source = "nursulu97/vpcbatch8/aws"
     region = "us-east-2"
@@ -10,3 +11,4 @@ module "vpc" {
     ip_on_launch = true
     instance_type = "t2.micro"
 }
+```
